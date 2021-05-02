@@ -1,0 +1,10 @@
+## atlantis.yaml file - This file overwrites the Server Side Repo Config section
+version: 3
+automerge: true
+projects:
+- name: atlantis-test
+  dir: .
+  workspace: default
+  terraform_version: v0.14.11
+  autoplan:
+    enabled: true
