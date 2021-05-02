@@ -8,12 +8,3 @@ projects:
   terraform_version: v0.14.11
   autoplan:
     enabled: true
-
-workflows:
-  default:
-    plan:
-      steps:
-        - init:
-            extra_args:
-              - '-upgrade=false'
-        - plan:
